@@ -4,8 +4,8 @@ import java.text.NumberFormat;
 public class OOp223 {
 //method to calculate totola cost
     public static double calculateTotalCost(double firstparam,double secondparam, double thirdparam){
-        double total =(firstparam+secondparam+thirdparam);
-        return total;
+
+        return (firstparam+secondparam+thirdparam);
     }
 //calling the method calculateTotalCost in the main method
         public static void main(String[] args) {
